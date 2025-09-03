@@ -13,3 +13,5 @@ Proyecto desarrollado para el programa "Oracle Next Education" donde se ingresa 
 - Reiniciar el juego con una nueva lista vacia.
 
 ![lista de amigos](assets/botonReinicio.png)
+
+Proyecto Desplegado: [Challenge - Amigo Secreto](https://alejandragaspar.github.io/ALURA_Challenge_Amigo_Secreto/)
