@@ -31,7 +31,7 @@ function sortearAmigo() {
         console.log(nombreSeleccionado);
         mostrarTextoEnElemento('#resultado', nombreSeleccionado);
         mostrarTextoEnElemento('#listaAmigos', '');
-        listaNombres = [];
+        //listaNombres = [];
         return;
     } else{
         mostrarTextoEnElemento('#listaAmigos', 'La lista de amigos esta vacia, agregue un registro');
@@ -48,4 +48,10 @@ function mostrarListaAmigos(){
         item.textContent = amigo;
         lista.appendChild(item);
     }
+}
+
+function reiniciarLista(){
+    listaNombres = [];
+    mostrarTextoEnElemento('#resultado', '');
+    return;
 }
