@@ -31,6 +31,7 @@ function sortearAmigo() {
         console.log(nombreSeleccionado);
         mostrarTextoEnElemento('#resultado', nombreSeleccionado);
         mostrarTextoEnElemento('#listaAmigos', '');
+        listaNombres = [];
         return;
     } else{
         mostrarTextoEnElemento('#listaAmigos', 'La lista de amigos esta vacia, agregue un registro');
